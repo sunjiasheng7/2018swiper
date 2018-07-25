@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="" name="Keyords">
+    <meta name="description" content=""/>
+    <title>赵美丽</title>
+    <link rel="icon" href="http://cdn.hommk.com/pcgame/images/new_version/favicon.png?1529473162">
+    <link rel="stylesheet" href="swiper.min.css">
+
+
+</head>
+<body>
+<!--<div class="swiper-container">-->
+    <!--<div class="swiper-wrapper">-->
+        <!--<div class="swiper-slide">Slide 1</div>-->
+        <!--<div class="swiper-slide">Slide 2</div>-->
+        <!--<div class="swiper-slide">Slide 3</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; 如果需要分页器 &ndash;&gt;-->
+    <!--<div class="swiper-pagination"></div>-->
+
+    <!--&lt;!&ndash; 如果需要导航按钮 &ndash;&gt;-->
+    <!--<div class="swiper-button-prev"></div>-->
+    <!--<div class="swiper-button-next"></div>-->
+
+    <!--&lt;!&ndash; 如果需要滚动条 &ndash;&gt;-->
+    <!--<div class="swiper-scrollbar"></div>-->
+<!--</div>-->
+<div id="div1" style="font-size: 80px;width: 700px;height: 300px;line-height:300px;margin: 70px auto;background-color: #7dd6d0;color: #fffefb;user-select: none;text-align: center;box-shadow: 0 0 30px 2px "></div>
+<!--<script src="swiper.min.js"></script>-->
+
+<!--<script>-->
+    <!--var mySwiper = new Swiper ('.swiper-container', {-->
+        <!--direction: 'vertical',-->
+        <!--loop: true,-->
+        <!--autoplay: {-->
+            <!--delay: 300,-->
+            <!--stopOnLastSlide: false,-->
+            <!--disableOnInteraction: true,-->
+        <!--},-->
+
+        <!--// 如果需要分页器-->
+        <!--pagination: {-->
+            <!--el: '.swiper-pagination',-->
+        <!--},-->
+
+        <!--// 如果需要前进后退按钮-->
+        <!--navigation: {-->
+            <!--nextEl: '.swiper-button-next',-->
+            <!--prevEl: '.swiper-button-prev',-->
+        <!--},-->
+
+        <!--// 如果需要滚动条-->
+        <!--scrollbar: {-->
+            <!--el: '.swiper-scrollbar',-->
+        <!--},-->
+    <!--})-->
+<!--</script>-->
+</body>
+</html>
+<script>
+//    alert('吃饭前请确定你喜欢我!');
+//    alert('吃饭前请确定你喜欢我!');
+//    alert('吃饭前请确定你喜欢我!');
+//    alert('吃饭前请确定你喜欢我!');
+//    alert('吃饭前请确定你喜欢我!');
+//    alert('吃饭前请确定你喜欢我!');
+//    alert('吃饭前请确定你喜欢我!');
+//    alert('吃饭前请确定你喜欢我!');
+//    alert('吃饭前请确定你喜欢我!');
+//    alert('吃饭前请确定你喜欢我!');
+
+
+    //console.log(n);
+
+//    console.log(restaurantStr);
+
+//    console.log(restaurantSelect());
+
+//    console.log(restaurantStr.length);
+    function xa() {
+        var n = Math.ceil(Math.random()*6);
+        var restaurantStr = ['楼下麻辣拌','麻辣烫','臊子面','凉皮','面筋','超市盒饭','绿茶'];
+
+//        function restaurantSelect() {
+            div1.innerHTML= restaurantStr[n]
+//        }
+
+    }
+    var timea = window.setInterval(xa,100);
+    div1.onclick = function(){window.clearInterval(timea);}
+</script>
